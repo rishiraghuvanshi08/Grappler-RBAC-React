@@ -1,0 +1,66 @@
+{
+  "id": 1,
+  "name": "Gautam",
+  "designation": "CEO",
+  "subordinates": [
+      {
+          "id": 2,
+          "name": "Abhishek",
+          "designation": "Manager",
+          "subordinates": [
+              {
+                  "id": 7,
+                  "name": "Abhinav",
+                  "designation": "Module Lead",
+                  "subordinates": []
+              }
+          ]
+      },
+      {
+          "id": 3,
+          "name": "Rajesh",
+          "designation": "Manager",
+          "subordinates": [
+              {
+                  "id": 5,
+                  "name": "Aman",
+                  "designation": "Module Lead",
+                  "subordinates": [
+                      {
+                          "id": 8,
+                          "name": "Rishi",
+                          "designation": "Employee",
+                          "subordinates": []
+                      },
+                      {
+                          "id": 9,
+                          "name": "Abhi",
+                          "designation": "Employee",
+                          "subordinates": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "id": 4,
+          "name": "Mayank",
+          "designation": "Manager",
+          "subordinates": [
+              {
+                  "id": 6,
+                  "name": "Ayushi",
+                  "designation": "Module Lead",
+                  "subordinates": [
+                      {
+                          "id": 10,
+                          "name": "Dishika",
+                          "designation": "Employee",
+                          "subordinates": []
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}
